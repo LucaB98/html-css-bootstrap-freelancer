@@ -1,0 +1,106 @@
+
+
+/* UTILITY */
+
+.bg-dark-blue{
+    background-color: #2C3E50;
+}
+
+.bg-green-aqua{
+    background-color: #1ABC9C;
+}
+
+.bg-dark-grey{
+    background-color: #3A546D;
+}
+
+.bg-greydark{
+    background-color: #2C3E50;
+}
+
+.jumbotron{
+    color: white;
+}
+
+
+.fa-star{
+    font-size: 25px;
+}
+
+.star-divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star-divider::after,
+.star-divider::before{
+    content: '';
+    display: inline-block;
+    background-color: white;
+    height: 2px;
+    margin: 0 10px;
+    width: 70px;
+}
+
+.star-divider.dark::after,
+.star-divider.dark::before{
+    content: '';
+    background-color: black;
+    
+}
+
+/* JUMBOTRON */
+
+.avatar{
+    height: auto;
+   max-width: 200px;
+}
+
+/* ABOUT */
+
+#about{
+  color: white;
+}
+
+/* CONTACT */
+
+#contact .form-control{
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    padding-left: 0;
+}
+
+/* FOOTER */
+
+.web-icon a{
+    color: white;
+}
+
+.web-icon li{
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#footer button{
+    padding: 10px 15px;
+    border-radius: 30px ;
+}
+
+#footer .col{
+    padding: 10px 0;
+}
+
+
+@media screen and (min-width: 576px) {
+    .star-divider::after,
+    .star-divider::before{
+        margin: 0 20px;
+        width: 100px;
+    }
+}
